@@ -1,0 +1,836 @@
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : VAR_27027 : Use default value [] for mapping parameter:[$$RECON_END_DT].
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : VAR_27027 : Use default value [] for mapping parameter:[$$RECON_STRT_DT].
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : VAR_27029 : Use persisted repository value [02/10/2025 00:00:00.000000000] for mapping variable:[$$SNAPSHOT_START_DT].
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6014 : Initializing session [PLP_WC_FIN_Claims_Snapshot_A] at [Tue Feb 11 02:10:26 2025].
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6683 : Repository Name: [rs_prod_ABC]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6684 : Server Name: [is_utf8_obia_ABC]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6686 : Folder: [Custom_PLP]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6685 : Workflow: [PLP_WC_FIN_Claims_Snapshot_A] Run Instance Name: [] Run Id: [26702962]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6992 : Operating System Type [Linux]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6101 : Mapping name: PLP_WC_FIN_Claims_Snapshot_A [version 11].
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6708 : Using configuration property [LBSwapUse,No]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6708 : Using configuration property [LBUsingSwap,No]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6708 : Using configuration property [overrideMpltVarWithMapVar,Yes]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6703 : Session [PLP_WC_FIN_Claims_Snapshot_A] is run by 64-bit Integration Service  [node02_prod], version [10.4.1], build [0614].
+2025-02-11 12:40:26 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [MANAGER] has the ID [1].
+2025-02-11 12:40:26 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24058 : Running Partition Group [1].
+2025-02-11 12:40:26 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24000 : Parallel Pipeline Engine initializing.
+2025-02-11 12:40:26 : INFO : (91340 | MONITOR) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [MONITOR] has the ID [2].
+2025-02-11 12:40:26 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24001 : Parallel Pipeline Engine running.
+2025-02-11 12:40:26 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24003 : Initializing session run.
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [MAPPING] has the ID [3].
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1569 : Server Mode: [UNICODE]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1570 : Server Code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6151 : The session sort order is [Binary].
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_65111 : Current Timezone:[UTC -5:0]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_65112 : Current Process ID:[91340]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6156 : Using low precision processing.
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6180 : Deadlock retry logic will not be implemented.
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6187 : Session target-based commit interval is [10000].
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6307 : DTM error log disabled. 
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7022 : TShmWriter: Initialized
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21075 : Connecting to database [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1716 : Lookup [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT] uses database connection [Relational:DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : DEBUG : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7004 : Transformation Parse Warning [IIF($$SNPSHOT_FLG='D',
+	IIF(
+		NOT ISNULL(:LKP.WC_LKP_WC_FIN_CLAIMS_SNAPSHOT(SNAPSHOT_DT_WID)),
+		ERROR('User defined error: An attempt was made to truncate an existing snapshot without setting the $$SNPSHOT_FLG=R OR M. Either set this flag = R and provide reconcile start date and end date Or set this flag = M in case previous month snapshot is required.')
+		),
+:SP.SP_WC_TRUNCATETABLE_PARTITION(v_OWNER_NAME,v_TABLE_NAME,v_PARTITION_NAME,v_CUT_OF_START_DT,v_CUT_OF_END_DT,v_STATUS))
+
+
+--- If Snapshot flag is 'D' i.e. Daily load 		
+	-- If Snapshot exists in table raises Application error
+--- Else truncate partition for given date range
+		]; transformation continues...
+2025-02-11 12:40:26 : DEBUG : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7004 : Transformation Parse Warning [<<PM Parse Warning>> [:SP.SP_WC_TRUNCATETABLE_PARTITION(v_OWNER_NAME,v_TABLE_NAME,v_PARTITION_NAME,v_CUT_OF_START_DT,v_CUT_OF_END_DT,v_STATUS))
+
+
+--- If Snapshot flag is 'D' i.e. Daily load 		
+	-- If Snapshot exists in table raises Application error
+--- Else truncate partition for given date range
+		]: No return port specified. Default return value to NULL
+... IIF($$SNPSHOT_FLG='D',
+	IIF(
+		NOT ISNULL(:LKP.WC_LKP_WC_FIN_CLAIMS_SNAPSHOT(SNAPSHOT_DT_WID)),
+		ERROR('User defined error: An attempt was made to truncate an existing snapshot without setting the $$SNPSHOT_FLG=R OR M. Either set this flag = R and provide reconcile start date and end date Or set this flag = M in case previous month snapshot is required.')
+		),
+>>>>:SP.SP_WC_TRUNCATETABLE_PARTITION(v_OWNER_NAME,v_TABLE_NAME,v_PARTITION_NAME,v_CUT_OF_START_DT,v_CUT_OF_END_DT,v_STATUS)<<<<)
+
+
+--- If Snapshot flag is 'D' i.e. Daily load 		
+	-- If Snapshot exists in table raises Application error
+--- Else truncate partition for given date range
+		]; transformation continues...
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1716 : Lookup [LKP_WC_FIN_NOTES_D] uses database connection [Relational:DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1716 : Lookup [LKP_WC_FIN_CLAIMS_F] uses database connection [Relational:DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1716 : Lookup [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES] uses database connection [Relational:DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1716 : Lookup [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE] uses database connection [Relational:DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1716 : Lookup [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE] uses database connection [Relational:DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1716 : Lookup [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE] uses database connection [Relational:DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1716 : Lookup [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE] uses database connection [Relational:DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:40:26 : DEBUG : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7004 : Transformation Parse Warning [:SP.SP_WC_REBUILDINDEXPARTITION(v_OWNER_NAME,v_TABLE_NAME,v_PARTITION_NAME,v_PARTITION_DT,v_STATUS)
+
+
+
+--Rebuild Index partition]; transformation continues...
+2025-02-11 12:40:26 : DEBUG : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7004 : Transformation Parse Warning [<<PM Parse Warning>> [:SP.SP_WC_REBUILDINDEXPARTITION(v_OWNER_NAME,v_TABLE_NAME,v_PARTITION_NAME,v_PARTITION_DT,v_STATUS)
+
+
+
+--Rebuild Index partition]: No return port specified. Default return value to NULL
+... >>>>:SP.SP_WC_REBUILDINDEXPARTITION(v_OWNER_NAME,v_TABLE_NAME,v_PARTITION_NAME,v_PARTITION_DT,v_STATUS)<<<<
+
+
+
+--Rebuild Index partition]; transformation continues...
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6007 : DTM initialized successfully for session [PLP_WC_FIN_Claims_Snapshot_A]
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24033 : All DTM Connection Info: [<NONE>].
+2025-02-11 12:40:26 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Tue Feb 11 02:10:26 2025)
+2025-02-11 12:40:26 : INFO : (91340 | PRE-SESS) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2025-02-11 12:40:26 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Tue Feb 11 02:10:26 2025)
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24006 : Starting data movement.
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [5] lookup caches; [2] on-demand only).
+2025-02-11 12:40:26 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6660 : Total Buffer Pool size is 1073741824 bytes and Block size is 1280000 bytes.
+2025-02-11 12:40:26 : INFO : (91340 | LKPDP_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2025-02-11 12:40:26 : INFO : (91340 | LKPDP_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21312 : Lookup Transformation [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT]: Lookup override sql to create cache: SELECT  distinct  WC_FIN_CLAIMS_SNAPSHOT_F.SNAPSHOT_DT_WID AS SNAPSHOT_DT_WID FROM WC_FIN_CLAIMS_SNAPSHOT_F ORDER BY SNAPSHOT_DT_WID
+
+2025-02-11 12:40:26 : INFO : (91340 | LKPDP_1) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Index Cache] size for transformation [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT] from [178956970] to [178959200].
+2025-02-11 12:40:26 : INFO : (91340 | LKPDP_1) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Data Cache] size for transformation [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT] from [357913940] to [357916672].
+2025-02-11 12:40:26 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2025-02-11 12:40:26 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [READER_1_1_1] has the ID [6].
+2025-02-11 12:40:26 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21438 : Reader: Source is [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:40:26 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16051 : Source database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:27 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16003 : Initialization completed successfully.
+2025-02-11 12:40:27 : INFO : (91340 | TRANSF_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [7].
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [WRITER_1_*_1] has the ID [8].
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8147 : Writer: Target is Database [obawprd], Type [Oracle], User [OBAW], Bulk Mode [OFF]
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8221 : Target database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8124 : Target Table WC_FIN_CLAIMS_SNAPSHOT_F :SQL INSERT statement:
+INSERT INTO WC_FIN_CLAIMS_SNAPSHOT_F(SNAPSHOT_DT_WID)  VALUES ( ?) 
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8020 : No column marked as primary key for table [WC_FIN_CLAIMS_SNAPSHOT_F]. UPDATEs Not Supported.
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8270 : Target connection group #1 consists of target(s) [WC_FIN_CLAIMS_SNAPSHOT_F]
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8003 : Writer initialization complete.
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8005 : Writer run started.
+2025-02-11 12:40:27 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Tue Feb 11 02:10:27 2025
+
+Target tables:
+
+     WC_FIN_CLAIMS_SNAPSHOT_F
+
+
+2025-02-11 12:40:27 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16007 : Reader run started.
+2025-02-11 12:40:27 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4029 : SQ Instance [SQ_WC_TRUNCATE_PARTITION_PRE_LOAD] User specified SQL Query [Select row_wid,calendar_date,Decode(row_wid,m_end_cal_dt_wid,'Y','N')  month_end_flg
+ from W_DAY_D wd
+ where (('D' = 'D' /* 'D' or 'M' or 'R' */
+       and wd.calendar_date BETWEEN trunc(to_date('02/10/2025 00:00:00','MM/DD/YYYY HH24:MI:SS'))  AND (trunc(sysdate) - 1)
+               and wd.calendar_date >= trunc(sysdate, 'MM') ) or
+       ('M' = 'D' /* 'D' or 'M' or 'R' */
+       and wd.calendar_date = trunc(sysdate, 'MM') - 1) or
+       ('R' = 'D' /* 'D' or 'M' or 'R' */
+       and wd.calendar_date between
+       TO_DATE('', 'MM/DD/YYYY HH24:MI:SS') /* Reconcile start date */
+       and TO_DATE('', 'MM/DD/YYYY HH24:MI:SS') /* Reconcile end date */
+       and (wd.calendar_date >= trunc(sysdate, 'MM') or
+       wd.calendar_date = last_day(wd.calendar_date))))]
+2025-02-11 12:40:27 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4049 : RR_4049 SQL Query issued to database : (Tue Feb 11 02:10:27 2025)
+2025-02-11 12:40:27 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4050 : RR_4050 First row returned from database to reader : (Tue Feb 11 02:10:27 2025)
+2025-02-11 12:40:27 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16019 : Read [1] rows, read [0] error rows for source table [W_DAY_D] instance name [W_DAY_D_PRE_LOAD]
+2025-02-11 12:40:27 : INFO : (91340 | READER_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16008 : Reader run completed.
+2025-02-11 12:40:27 : INFO : (91340 | LKPDP_1) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-02-11 12:40:27 : INFO : (91340 | LKPDP_1:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [9].
+2025-02-11 12:40:27 : INFO : (91340 | LKPDP_1:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21438 : Reader: Source is [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:40:27 : INFO : (91340 | LKPDP_1:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16051 : Source database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:27 : INFO : (91340 | LKPDP_1:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16003 : Initialization completed successfully.
+2025-02-11 12:40:27 : INFO : (91340 | LKPDP_1:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [10].
+2025-02-11 12:40:27 : INFO : (91340 | LKPDP_1:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16007 : Reader run started.
+2025-02-11 12:40:27 : INFO : (91340 | LKPDP_1:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4049 : RR_4049 SQL Query issued to database : (Tue Feb 11 02:10:27 2025)
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4050 : RR_4050 First row returned from database to reader : (Tue Feb 11 02:10:33 2025)
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16008 : Reader run completed.
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Feb 11 02:10:33 2025)
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21682 : Lookup table row count : 101
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21297 : Lookup cache row count : 101
+
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Feb 11 02:10:33 2025)
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1671 : Created new cache files PMLKUP42531_14_0_26702962L64.[dat/idx] in directory /APPS/Informatica/infa_shared_obia/Cache for Lookup [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21641 : WC_lkp_WC_FIN_CLAIMS_SNAPSHOT: Index cache size = [178959200], Data cache size = [357916672]
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_1:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21216 : Finished transformations for Source Qualifier [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT{{DSQ}}]. Total errors [0] 
+2025-02-11 12:40:33 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24031 : 
+***** RUN INFO FOR DYNAMIC PIPELINE [LKPDP_1] *****
+Thread [LKPDP_1:READER_1_1] created for [the read stage] of partition point [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT{{DSQ}}] has completed.
+	Total Run Time = [5.878380] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+Thread [LKPDP_1:TRANSF_1_1] created for [the transformation stage] of partition point [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT{{DSQ}}] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-02-11 12:40:33 : INFO : (91340 | TRANSF_1_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21216 : Finished transformations for Source Qualifier [SQ_WC_TRUNCATE_PARTITION_PRE_LOAD]. Total errors [0] 
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8167 : Start loading table [WC_FIN_CLAIMS_SNAPSHOT_F] at: Tue Feb 11 02:10:32 2025
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8168 : End loading table [WC_FIN_CLAIMS_SNAPSHOT_F] at: Tue Feb 11 02:10:32 2025
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8035 : Load complete time: Tue Feb 11 02:10:32 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: WC_FIN_CLAIMS_SNAPSHOT_F (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F_PRE_LOAD])
+WRT_8044 No data loaded for this target
+
+
+
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8043 : *****END LOAD SESSION*****
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_1_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8006 : Writer run completed.
+2025-02-11 12:40:33 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_WC_TRUNCATE_PARTITION_PRE_LOAD] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_WC_TRUNCATE_PARTITION_PRE_LOAD] has completed.
+	Total Run Time = [5.997686] secs
+	Total Idle Time = [5.997459] secs
+	Busy Percentage = [0.003784]
+	Transformation-specific statistics for this thread were not accurate enough to report.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [WC_FIN_CLAIMS_SNAPSHOT_F_PRE_LOAD] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_2] has the ID [11].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21312 : Lookup Transformation [LKP_WC_FIN_NOTES_D]: Lookup override sql to create cache: SELECT  WC_FIN_NOTES_D.ROW_WID AS ROW_WID,  WC_FIN_NOTES_D.SOURCE_OBJECT_ID AS SOURCE_OBJECT_ID FROM WC_FIN_NOTES_D
+WHERE  WC_FIN_NOTES_D.SOURCE_OBJECT_CODE IN ('AMS_CLAM')
+AND WC_FIN_NOTES_D.LAST_UPDATE_DT = (select max(b.LAST_UPDATE_DT) from WC_FIN_NOTES_D b where b.SOURCE_OBJECT_ID=WC_FIN_NOTES_D.SOURCE_OBJECT_ID and b.SOURCE_OBJECT_CODE IN ('AMS_CLAM')) ORDER BY SOURCE_OBJECT_ID,ROW_WID
+
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Index Cache] size for transformation [LKP_WC_FIN_NOTES_D] from [178956970] to [178959200].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Data Cache] size for transformation [LKP_WC_FIN_NOTES_D] from [357913940] to [357916672].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_3) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_3] has the ID [12].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_3) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21312 : Lookup Transformation [LKP_WC_FIN_CLAIMS_F]: Lookup override sql to create cache: SELECT  REMAINING_DOC_AMT AS REMAINING_DOC_AMT,  SNAPSHOT_DT_WID   AS SNAPSHOT_DT_WID,  RECEIPT_NUMBER    AS RECEIPT_NUMBER,  DATASOURCE_NUM_ID AS DATASOURCE_NUM_ID FROM (SELECT W_DAY_D_Dim.ROW_WID SNAPSHOT_DT_WID,
+               RECEIPT_NUMBER,
+               WC_FIN_CLAIMS_F.DATASOURCE_NUM_ID,
+               SUM(REMAINING_DOC_AMT) REMAINING_DOC_AMT
+          FROM WC_FIN_CLAIMS_F,
+               W_DAY_D DUEDT,
+               W_DAY_D INVOICEDT,
+               (select calendar_date, ROW_WID
+                  from W_DAY_D wd
+                 where (('D' = 'D' 
+                       and wd.calendar_date BETWEEN
+                       trunc(to_date('02/10/2025 00:00:00',
+                                           'MM/DD/YYYY HH24:MI:SS')) AND
+                       (trunc(sysdate) - 1) and
+                       wd.calendar_date >= trunc(sysdate, 'MM')) or
+                       ('M' = 'D' 
+                       and wd.calendar_date = trunc(sysdate, 'MM') - 1) or
+                       ('R' = 'D' 
+                       and
+                       wd.calendar_date between
+                       TO_DATE('', 'MM/DD/YYYY HH24:MI:SS')
+                       and
+                       TO_DATE('', 'MM/DD/YYYY HH24:MI:SS') 
+                       and (wd.calendar_date >= trunc(sysdate, 'MM') or
+                       wd.calendar_date = last_day(wd.calendar_date))))) W_DAY_D_Dim
+         WHERE INV_RLTD_CLAIM_FLG = 'N'
+           AND WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID = DUEDT.ROW_WID
+           AND WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID = INVOICEDT.ROW_WID
+	   AND ((((WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID <= w_day_d_dim.row_wid and
+	   WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID <> 0 )
+	   or
+ ((WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID > w_day_d_dim.row_wid and
+ WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID <> 0 )))
+	       
+	       and
+               (WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID = 0 or
+               WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID >
+               w_day_d_dim.row_wid)) or
+               (WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID <> 0 and
+               WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID <=
+               w_day_d_dim.row_wid and
+               substr(WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID, 0, 6) =
+               substr(w_day_d_dim.row_wid, 0, 6) and
+               WC_FIN_CLAIMS_F.STATUS = 'CLOSED'))
+         GROUP BY W_DAY_D_Dim.ROW_WID,
+                  RECEIPT_NUMBER,
+                  WC_FIN_CLAIMS_F.DATASOURCE_NUM_ID
+        HAVING SUM(REMAINING_DOC_AMT) <> 0) ORDER BY SNAPSHOT_DT_WID,RECEIPT_NUMBER,DATASOURCE_NUM_ID,REMAINING_DOC_AMT
+
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_3) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Index Cache] size for transformation [LKP_WC_FIN_CLAIMS_F] from [178956970] to [178968064].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_3) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Data Cache] size for transformation [LKP_WC_FIN_CLAIMS_F] from [357913940] to [357916672].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_4) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_4] has the ID [13].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_4) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21097 : Lookup Transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES]: Default sql to create lookup cache: SELECT GLOBAL1_CURR_CODE,GLOBAL2_CURR_CODE,GLOBAL3_CURR_CODE,DEFAULT_LOC_RATE_TYPE,DATASOURCE_NUM_ID,TENANT_ID FROM W_GLOBAL_CURR_G ORDER BY DATASOURCE_NUM_ID,TENANT_ID,GLOBAL1_CURR_CODE,GLOBAL2_CURR_CODE,GLOBAL3_CURR_CODE,DEFAULT_LOC_RATE_TYPE
+
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_4) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Index Cache] size for transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES] from [178956970] to [178974720].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_4) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Data Cache] size for transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES] from [357913940] to [357916672].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_5) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_5] has the ID [14].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_5) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21312 : Lookup Transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE]: Lookup override sql to create cache: SELECT  W_EXCH_RATE_G.EXCH_RATE     AS EXCH_RATE,  W_EXCH_RATE_G.FROM_CURCY_CD AS FROM_CURCY_CD,  W_EXCH_RATE_G.TO_CURCY_CD   AS TO_CURCY_CD,  W_EXCH_RATE_G.START_DT      AS START_DT,  W_EXCH_RATE_G.END_DT        AS END_DT,  W_EXCH_RATE_G.RATE_TYPE     AS RATE_TYPE FROM W_EXCH_RATE_G ORDER BY FROM_CURCY_CD,TO_CURCY_CD,START_DT,END_DT,RATE_TYPE,EXCH_RATE
+
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_5) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Index Cache] size for transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE] from [40000000] to [40009728].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_5) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7212 : Increasing [Data Cache] size for transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE] from [20000000] to [20004864].
+2025-02-11 12:40:33 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKP_WC_FIN_NOTES_D].
+2025-02-11 12:40:33 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [READER_2_1_1] has the ID [15].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-02-11 12:40:33 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21438 : Reader: Source is [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_2:READER_1_1] has the ID [16].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21438 : Reader: Source is [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:40:33 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16051 : Source database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16051 : Source database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16003 : Initialization completed successfully.
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_2:TRANSF_1_1] has the ID [17].
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16007 : Reader run started.
+2025-02-11 12:40:33 : INFO : (91340 | LKPDP_2:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4049 : RR_4049 SQL Query issued to database : (Tue Feb 11 02:10:33 2025)
+2025-02-11 12:40:33 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16003 : Initialization completed successfully.
+2025-02-11 12:40:33 : INFO : (91340 | TRANSF_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [TRANSF_2_1_1] has the ID [18].
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [WRITER_2_*_1] has the ID [19].
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8147 : Writer: Target is Database [obawprd], Type [Oracle], User [OBAW], Bulk Mode [OFF]
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8221 : Target database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8124 : Target Table WC_FIN_CLAIMS_SNAPSHOT_F :SQL INSERT statement:
+INSERT INTO WC_FIN_CLAIMS_SNAPSHOT_F(SNAPSHOT_DT_WID,SNAPSHOT_DT,CUSTOMER_WID,CUSTOMER_ACCT_WID,CUSTOMER_FIN_PROFL_WID,CUSTOMER_BILL_TO_LOC_WID,CLAIM_ID,CLAIM_NUMBER,CLAIM_TYPE_ID,CLAIM_TYPE_DESC,INV_RLTD_CLAIM_FLG,CLAIM_OWNER_WID,CREATED_BY_WID,LAST_UPDATED_BY_WID,CREATION_DATE_WID,CLAIM_ACTL_STRT_DATE_WID,CLAIM_ACTL_END_DATE_WID,TRX_DATE_WID,CLAIMS_LAST_UPDATE_DATE,CUST_TRX_LAST_UPDATE_DATE,CLAIMS_TL_LAST_UPDATE_DATE,ORIG_CLAIM_DOC_AMT,ORIG_CLAIM_LOC_AMT,ORIG_CLAIM_GLOBAL1_AMT,ORIG_CLAIM_GLOBAL2_AMT,ORIG_CLAIM_GLOBAL3_AMT,ADJUSTED_DOC_AMT,ADJUSTED_LOC_AMT,ADJUSTED_GLOBAL1_AMT,ADJUSTED_GLOBAL2_AMT,ADJUSTED_GLOBAL3_AMT,REMAINING_DOC_AMT,REMAINING_LOC_AMT,REMAINING_GLOBAL1_AMT,REMAINING_GLOBAL2_AMT,REMAINING_GLOBAL3_AMT,SETTLED_DOC_AMT,SETTLED_LOC_AMT,SETTLED_GLOBAL1_AMT,SETTLED_GLOBAL2_AMT,SETTLED_GLOBAL3_AMT,ACCTD_DOC_AMT,ACCTD_LOC_AMT,ACCTD_GLOBAL1_AMT,ACCTD_GLOBAL2_AMT,ACCTD_GLOBAL3_AMT,DOC_CURRENCY_CODE,LOC_CURRENCY_CODE,CLAIM_REASON_CODE,CLAIM_REASON_DESC,STATUS,TRANSACTION_ID,TRANSACTION_TYPE,SALES_INVOICE_NUM,RECEIPT_ID,RECEIPT_NUMBER,PAYMENT_METHOD,DEDUCTION_REP_WID,APPLIED_RECEIPT_ID,APPLIED_RECEIPT_NUMBER,APPROVED_BY_WID,SETTLED_BY_WID,ETN_LEDGER,CREDIT_OFFICE,OVERDUE_FLG,AGING_BUCKET,OPEN_BUCKET,CURRENT_MNTH_DUE_BKT_FLG,FUTURE_DUE_BKT_FLG,ETL_PROC_WID,DATASOURCE_NUM_ID,INTEGRATION_ID,W_INSERT_DT,W_UPDATE_DT,OPERATING_UNIT_ORG_WID,X_REASON_NAME,CLAIM_DATE_WID,GL_ACCOUNT_WID,X_UNIFY_CUST_BILL_TO_REF_WID,X_EXCLUDE_FLG,X_CLOSED_DATE_WID,X_CUST_REF_NUM,X_NOTES_WID)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8270 : Target connection group #1 consists of target(s) [WC_FIN_CLAIMS_SNAPSHOT_F]
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8003 : Writer initialization complete.
+2025-02-11 12:40:33 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16007 : Reader run started.
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8005 : Writer run started.
+2025-02-11 12:40:33 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Tue Feb 11 02:10:33 2025
+
+Target tables:
+
+     WC_FIN_CLAIMS_SNAPSHOT_F
+
+
+2025-02-11 12:40:33 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4029 : SQ Instance [SQ_WC_FIN_CLAIMS_F] User specified SQL Query [SELECT W_DAY_D_Dim.ROW_WID,
+       W_DAY_D_Dim.CALENDAR_DATE,
+       WC_FIN_CLAIMS_F.CUSTOMER_WID,
+       WC_FIN_CLAIMS_F.CUSTOMER_ACCT_WID,
+       WC_FIN_CLAIMS_F.CUSTOMER_FIN_PROFL_WID,
+       WC_FIN_CLAIMS_F.CUSTOMER_BILL_TO_LOC_WID,
+       WC_FIN_CLAIMS_F.CLAIM_ID,
+       WC_FIN_CLAIMS_F.CLAIM_NUMBER,
+       WC_FIN_CLAIMS_F.CLAIM_TYPE_ID,
+       WC_FIN_CLAIMS_F.CLAIM_TYPE_DESC,
+       WC_FIN_CLAIMS_F.INV_RLTD_CLAIM_FLG,
+       WC_FIN_CLAIMS_F.CLAIM_OWNER_WID,
+       WC_FIN_CLAIMS_F.CREATED_BY_WID,
+       WC_FIN_CLAIMS_F.LAST_UPDATED_BY_WID,
+       WC_FIN_CLAIMS_F.CREATION_DATE_WID,
+       WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID,
+       WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID,
+       WC_FIN_CLAIMS_F.TRX_DATE_WID,
+       WC_FIN_CLAIMS_F.CLAIMS_LAST_UPDATE_DATE,
+       WC_FIN_CLAIMS_F.CUST_TRX_LAST_UPDATE_DATE,
+       WC_FIN_CLAIMS_F.CLAIMS_TL_LAST_UPDATE_DATE,
+       SUM(WC_FIN_CLAIMS_F.ORIG_CLAIM_DOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.ORIG_CLAIM_LOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.ADJUSTED_DOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.ADJUSTED_LOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.REMAINING_DOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.REMAINING_LOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.SETTLED_DOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.SETTLED_LOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.ACCTD_DOC_AMT),
+       SUM(WC_FIN_CLAIMS_F.ACCTD_LOC_AMT),
+       WC_FIN_CLAIMS_F.DOC_CURRENCY_CODE,
+       WC_FIN_CLAIMS_F.LOC_CURRENCY_CODE,
+       WC_FIN_CLAIMS_F.CLAIM_REASON_CODE,
+       WC_FIN_CLAIMS_F.CLAIM_REASON_DESC,
+       WC_FIN_CLAIMS_F.STATUS,
+       WC_FIN_CLAIMS_F.TRANSACTION_ID,
+       WC_FIN_CLAIMS_F.TRANSACTION_TYPE,
+       WC_FIN_CLAIMS_F.SALES_INVOICE_NUM,
+       WC_FIN_CLAIMS_F.RECEIPT_ID,
+       WC_FIN_CLAIMS_F.RECEIPT_NUMBER,
+       WC_FIN_CLAIMS_F.PAYMENT_METHOD,
+       WC_FIN_CLAIMS_F.DEDUCTION_REP_WID,
+       WC_FIN_CLAIMS_F.APPLIED_RECEIPT_ID,
+       WC_FIN_CLAIMS_F.APPLIED_RECEIPT_NUMBER,
+       WC_FIN_CLAIMS_F.APPROVED_BY_WID,
+       WC_FIN_CLAIMS_F.SETTLED_BY_WID,
+       WC_FIN_CLAIMS_F.ETN_LEDGER,
+       WC_FIN_CLAIMS_F.CREDIT_OFFICE,
+       CASE
+         WHEN (MAX(WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID) > W_DAY_D_Dim.ROW_WID) THEN
+          'N'
+         ELSE
+          'Y'
+       END AS OVER_DUE_FLAG,
+	   CASE when (MAX(WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID) > W_DAY_D_Dim.ROW_WID)
+       THEN 0
+       ELSE(
+       CASE
+         WHEN ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 30 AND
+              ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 0 THEN
+          1
+         ELSE
+          (CASE
+            WHEN ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 60 AND
+                 ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 31 THEN
+             2
+            ELSE
+             (CASE
+               WHEN ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 90 AND
+                    ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 61 THEN
+                3
+               ELSE
+                (CASE
+                  WHEN ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 180 AND
+                       ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 91 THEN
+                   4
+                  ELSE
+                   (CASE
+                     WHEN ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 360 AND
+                          ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 181 THEN
+                      5
+                     ELSE
+                      (CASE
+                        WHEN ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 720 AND
+                             ABS(MAX(DUEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 361 THEN
+                         6
+                        ELSE
+                         7
+                      END)
+                   END)
+                END)
+             END)
+          END)
+       END) END AS AGING_BUCKET,
+	   CASE when (MAX(WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID) > W_DAY_D_Dim.ROW_WID)
+       THEN 0
+       ELSE(
+       CASE
+         WHEN ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 30 AND
+              ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 0 THEN
+          1
+         ELSE
+          (CASE
+            WHEN ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 60 AND
+                 ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 31 THEN
+             2
+            ELSE
+             (CASE
+               WHEN ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 90 AND
+                    ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 61 THEN
+                3
+               ELSE
+                (CASE
+                  WHEN ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 180 AND
+                       ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 91 THEN
+                   4
+                  ELSE
+                   (CASE
+                     WHEN ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 360 AND
+                          ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 181 THEN
+                      5
+                     ELSE
+                      (CASE
+                        WHEN ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) <= 720 AND
+                             ABS(MAX(INVOICEDT.JULIAN_DAY_NUM) - W_DAY_D_Dim.JULIAN_DAY_NUM) >= 361 THEN
+                         6
+                        ELSE
+                         7
+                      END)
+                   END)
+                END)
+             END)
+          END)
+       END) END AS OPEN_BUCKET,
+       CASE
+         WHEN MAX(WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID) >= W_DAY_D_Dim.ROW_WID AND
+              MAX(WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID) <=
+              W_DAY_D_Dim.m_end_cal_dt_wid THEN
+          'Y'
+         ELSE
+          'N'
+       END current_mnth_due_flg,
+       CASE
+         WHEN MAX(WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID) > W_DAY_D_Dim.ROW_WID AND
+              MAX(WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID) >
+              W_DAY_D_Dim.m_end_cal_dt_wid THEN
+          'Y'
+         ELSE
+          'N'
+       END future_due_flg,
+       WC_FIN_CLAIMS_F.DATASOURCE_NUM_ID,
+       WC_FIN_CLAIMS_F.INTEGRATION_ID,
+       WC_FIN_CLAIMS_F.OPERATING_UNIT_ORG_WID,
+       WC_FIN_CLAIMS_F.X_REASON_NAME,
+       WC_FIN_CLAIMS_F.CLAIM_DATE_WID, --Added Claim Date under Defect 17137  identified during INT 3
+       CLAIM_SLA.GL_ACCOUNT_WID, -- Added as part of INC000011029842
+       WC_FIN_CLAIMS_F.x_Unify_Cust_Bill_To_Ref_Wid, --Project - 49269 ( July 2018) 
+	 NVL(WC_FIN_CLAIMS_F.X_CLOSED_DATE_WID,0),    -- Added as part of project 50390 for INC000011462060
+       WC_FIN_CLAIMS_F.X_CUST_REF_NUM            -- Added as part of project 50390 for INC000011640315
+  FROM WC_FIN_CLAIMS_F,
+       W_DAY_D DUEDT,
+       W_DAY_D INVOICEDT,
+       (select *
+          from W_DAY_D wd
+         where (('D' = 'D' /* 'D' or 'M' or 'R' */
+               and wd.calendar_date BETWEEN
+               trunc(to_date('02/10/2025 00:00:00',
+                                   'MM/DD/YYYY HH24:MI:SS')) AND
+               (trunc(sysdate) - 1) and
+               wd.calendar_date >= trunc(sysdate, 'MM')) or
+               ('M' = 'D' /* 'D' or 'M' or 'R' */
+               and wd.calendar_date = trunc(sysdate, 'MM') - 1) or
+               ('R' = 'D' /* 'D' or 'M' or 'R' */
+               and wd.calendar_date between
+               TO_DATE('', 'MM/DD/YYYY HH24:MI:SS') /* Reconcile start date */
+               and TO_DATE('', 'MM/DD/YYYY HH24:MI:SS') /* Reconcile end date */
+               and (wd.calendar_date >= trunc(sysdate, 'MM') or
+               wd.calendar_date = last_day(wd.calendar_date))))) W_DAY_D_Dim,
+       (SELECT MAX(RF.GL_ACCOUNT_WID) GL_ACCOUNT_WID,
+               RF.SOURCE_DISTRIBUTION_ID
+          FROM WC_SLA_AR_RCPT_XACT_F RF
+         WHERE UPPER(RF.ACCOUNTING_CLASS_CODE) IN ('CLAIM')
+           AND UPPER(RF.EVENT_CLASS_CODE) IN ('RECEIPT')
+           AND UPPER(RF.EVENT_TYPE_CODE) NOT IN ('RECP_REVERSE')
+         GROUP BY RF.SOURCE_DISTRIBUTION_ID) CLAIM_SLA -- Added sub query as part of INC000011029842
+
+ WHERE
+---Modified as part of INC000010725579: replaced claim_date_wid with claim_actl_strt_date_wid---
+ WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID = DUEDT.ROW_WID -- Claim DUE Date
+ AND WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID = INVOICEDT.ROW_WID
+ AND (((((WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID <= w_day_d_dim.row_wid and
+ WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID <> 0 ))
+ or
+ 
+ ((WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID > w_day_d_dim.row_wid and
+ WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID <> 0 )))
+ AND
+ (WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID = 0 or
+ WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID > w_day_d_dim.row_wid)) or
+ (WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID <> 0 and
+ WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID <= w_day_d_dim.row_wid and
+ substr(WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID, 0, 6) =
+ substr(w_day_d_dim.row_wid, 0, 6) and WC_FIN_CLAIMS_F.STATUS = 'CLOSED'))
+ AND WC_FIN_CLAIMS_F.SLA_SOURCE_DISTRIBUTION_ID =
+ CLAIM_SLA.SOURCE_DISTRIBUTION_ID(+) -- Added sub query as part of INC000011029842
+ GROUP BY W_DAY_D_Dim.ROW_WID,
+          W_DAY_D_Dim.CALENDAR_DATE,
+          WC_FIN_CLAIMS_F.CUSTOMER_WID,
+          WC_FIN_CLAIMS_F.CUSTOMER_ACCT_WID,
+          WC_FIN_CLAIMS_F.CUSTOMER_FIN_PROFL_WID,
+          WC_FIN_CLAIMS_F.CUSTOMER_BILL_TO_LOC_WID,
+          WC_FIN_CLAIMS_F.CLAIM_ID,
+          WC_FIN_CLAIMS_F.CLAIM_NUMBER,
+          WC_FIN_CLAIMS_F.CLAIM_TYPE_ID,
+          WC_FIN_CLAIMS_F.CLAIM_TYPE_DESC,
+          WC_FIN_CLAIMS_F.INV_RLTD_CLAIM_FLG,
+          WC_FIN_CLAIMS_F.CLAIM_OWNER_WID,
+          WC_FIN_CLAIMS_F.CREATED_BY_WID,
+          WC_FIN_CLAIMS_F.LAST_UPDATED_BY_WID,
+          WC_FIN_CLAIMS_F.CREATION_DATE_WID,
+          WC_FIN_CLAIMS_F.CLAIM_ACTL_STRT_DATE_WID,
+          WC_FIN_CLAIMS_F.CLAIM_ACTL_END_DATE_WID,
+          WC_FIN_CLAIMS_F.TRX_DATE_WID,
+          WC_FIN_CLAIMS_F.CLAIMS_LAST_UPDATE_DATE,
+          WC_FIN_CLAIMS_F.CUST_TRX_LAST_UPDATE_DATE,
+          WC_FIN_CLAIMS_F.CLAIMS_TL_LAST_UPDATE_DATE,
+          WC_FIN_CLAIMS_F.DOC_CURRENCY_CODE,
+          WC_FIN_CLAIMS_F.LOC_CURRENCY_CODE,
+          WC_FIN_CLAIMS_F.CLAIM_REASON_CODE,
+          WC_FIN_CLAIMS_F.CLAIM_REASON_DESC,
+          WC_FIN_CLAIMS_F.STATUS,
+          WC_FIN_CLAIMS_F.TRANSACTION_ID,
+          WC_FIN_CLAIMS_F.TRANSACTION_TYPE,
+          WC_FIN_CLAIMS_F.SALES_INVOICE_NUM,
+          WC_FIN_CLAIMS_F.RECEIPT_ID,
+          WC_FIN_CLAIMS_F.RECEIPT_NUMBER,
+          WC_FIN_CLAIMS_F.PAYMENT_METHOD,
+          WC_FIN_CLAIMS_F.DEDUCTION_REP_WID,
+          WC_FIN_CLAIMS_F.APPLIED_RECEIPT_ID,
+          WC_FIN_CLAIMS_F.APPLIED_RECEIPT_NUMBER,
+          WC_FIN_CLAIMS_F.APPROVED_BY_WID,
+          WC_FIN_CLAIMS_F.SETTLED_BY_WID,
+          WC_FIN_CLAIMS_F.ETN_LEDGER,
+          WC_FIN_CLAIMS_F.CREDIT_OFFICE,
+          W_DAY_D_Dim.JULIAN_DAY_NUM,
+          W_DAY_D_Dim.ROW_WID,
+          W_DAY_D_Dim.m_end_cal_dt_wid,
+          WC_FIN_CLAIMS_F.DATASOURCE_NUM_ID,
+          WC_FIN_CLAIMS_F.INTEGRATION_ID,
+          WC_FIN_CLAIMS_F.OPERATING_UNIT_ORG_WID,
+          WC_FIN_CLAIMS_F.X_REASON_NAME,
+          WC_FIN_CLAIMS_F.CLAIM_DATE_WID,
+          CLAIM_SLA.GL_ACCOUNT_WID,
+          WC_FIN_CLAIMS_F.x_Unify_Cust_Bill_To_Ref_Wid,
+          WC_FIN_CLAIMS_F.X_CLOSED_DATE_WID,    -- Added as part of project 50390 for INC000011462060
+          WC_FIN_CLAIMS_F.X_CUST_REF_NUM            -- Added as part of project 50390 for INC000011640315]
+2025-02-11 12:40:33 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4049 : RR_4049 SQL Query issued to database : (Tue Feb 11 02:10:33 2025)
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4050 : RR_4050 First row returned from database to reader : (Tue Feb 11 02:10:35 2025)
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Feb 11 02:10:35 2025)
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16008 : Reader run completed.
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21682 : Lookup table row count : 544577
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21297 : Lookup cache row count : 544574
+
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Feb 11 02:10:35 2025)
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1671 : Created new cache files PMLKUP42531_24_0_26702962L64.[dat/idx] in directory /APPS/Informatica/infa_shared_obia/Cache for Lookup [LKP_WC_FIN_NOTES_D].
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21641 : LKP_WC_FIN_NOTES_D: Index cache size = [178959200], Data cache size = [357916672]
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_2:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21216 : Finished transformations for Source Qualifier [LKP_WC_FIN_NOTES_D{{DSQ}}]. Total errors [0] 
+2025-02-11 12:40:35 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24031 : 
+***** RUN INFO FOR DYNAMIC PIPELINE [LKPDP_2] *****
+Thread [LKPDP_2:READER_1_1] created for [the read stage] of partition point [LKP_WC_FIN_NOTES_D{{DSQ}}] has completed.
+	Total Run Time = [2.091132] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+Thread [LKPDP_2:TRANSF_1_1] created for [the transformation stage] of partition point [LKP_WC_FIN_NOTES_D{{DSQ}}] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-02-11 12:40:35 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKP_WC_FIN_CLAIMS_F].
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_3) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_3:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_3:READER_1_1] has the ID [20].
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_3:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21438 : Reader: Source is [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_3:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16051 : Source database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_3:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16003 : Initialization completed successfully.
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_3:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_3:TRANSF_1_1] has the ID [21].
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_3:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16007 : Reader run started.
+2025-02-11 12:40:35 : INFO : (91340 | LKPDP_3:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4049 : RR_4049 SQL Query issued to database : (Tue Feb 11 02:10:35 2025)
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4050 : RR_4050 First row returned from database to reader : (Tue Feb 11 02:10:36 2025)
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Feb 11 02:10:36 2025)
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16008 : Reader run completed.
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21682 : Lookup table row count : 8705
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21297 : Lookup cache row count : 8705
+
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Feb 11 02:10:36 2025)
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1671 : Created new cache files PMLKUP42531_23_0_26702962L64.[dat/idx] in directory /APPS/Informatica/infa_shared_obia/Cache for Lookup [LKP_WC_FIN_CLAIMS_F].
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21641 : LKP_WC_FIN_CLAIMS_F: Index cache size = [178968064], Data cache size = [357916672]
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_3:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21216 : Finished transformations for Source Qualifier [LKP_WC_FIN_CLAIMS_F{{DSQ}}]. Total errors [0] 
+2025-02-11 12:40:36 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24031 : 
+***** RUN INFO FOR DYNAMIC PIPELINE [LKPDP_3] *****
+Thread [LKPDP_3:READER_1_1] created for [the read stage] of partition point [LKP_WC_FIN_CLAIMS_F{{DSQ}}] has completed.
+	Total Run Time = [0.987862] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+Thread [LKPDP_3:TRANSF_1_1] created for [the transformation stage] of partition point [LKP_WC_FIN_CLAIMS_F{{DSQ}}] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-02-11 12:40:36 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES].
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_4:READER_1_1] has the ID [22].
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21438 : Reader: Source is [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16051 : Source database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16003 : Initialization completed successfully.
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_4:TRANSF_1_1] has the ID [23].
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16007 : Reader run started.
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4049 : RR_4049 SQL Query issued to database : (Tue Feb 11 02:10:36 2025)
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4050 : RR_4050 First row returned from database to reader : (Tue Feb 11 02:10:36 2025)
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16008 : Reader run completed.
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Feb 11 02:10:36 2025)
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21682 : Lookup table row count : 7
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21297 : Lookup cache row count : 7
+
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Feb 11 02:10:36 2025)
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1671 : Created new cache files PMLKUP42531_1376261_0_26702962L64.[dat/idx] in directory /APPS/Informatica/infa_shared_obia/Cache for Lookup [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES].
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21641 : MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES: Index cache size = [178974720], Data cache size = [357916672]
+2025-02-11 12:40:36 : INFO : (91340 | LKPDP_4:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21216 : Finished transformations for Source Qualifier [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES{{DSQ}}]. Total errors [0] 
+2025-02-11 12:40:36 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24031 : 
+***** RUN INFO FOR DYNAMIC PIPELINE [LKPDP_4] *****
+Thread [LKPDP_4:READER_1_1] created for [the read stage] of partition point [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES{{DSQ}}] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [LKPDP_4:TRANSF_1_1] created for [the transformation stage] of partition point [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES{{DSQ}}] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-02-11 12:40:36 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2025-02-11 12:41:01 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4050 : RR_4050 First row returned from database to reader : (Tue Feb 11 02:11:01 2025)
+2025-02-11 12:41:01 : INFO : (91340 | LKPDP_5) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-02-11 12:41:01 : INFO : (91340 | LKPDP_5:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_5:READER_1_1] has the ID [24].
+2025-02-11 12:41:01 : INFO : (91340 | LKPDP_5:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21438 : Reader: Source is [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:41:01 : INFO : (91340 | LKPDP_5:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16051 : Source database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:41:01 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21699 : Waiting for consumer to free buffer block. Please increase the dtm buffer pool size.
+2025-02-11 12:41:01 : INFO : (91340 | LKPDP_5:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16003 : Initialization completed successfully.
+2025-02-11 12:41:01 : INFO : (91340 | LKPDP_5:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [LKPDP_5:TRANSF_1_1] has the ID [25].
+2025-02-11 12:41:01 : INFO : (91340 | LKPDP_5:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16007 : Reader run started.
+2025-02-11 12:41:01 : INFO : (91340 | LKPDP_5:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4049 : RR_4049 SQL Query issued to database : (Tue Feb 11 02:11:01 2025)
+2025-02-11 12:41:03 : INFO : (91340 | LKPDP_5:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4050 : RR_4050 First row returned from database to reader : (Tue Feb 11 02:11:03 2025)
+2025-02-11 12:41:03 : INFO : (91340 | LKPDP_5:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Feb 11 02:11:03 2025)
+2025-02-11 12:41:09 : INFO : (91340 | LKPDP_5:READER_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16008 : Reader run completed.
+2025-02-11 12:41:09 : INFO : (91340 | LKPDP_5:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21682 : Lookup table row count : 1230710
+2025-02-11 12:41:09 : INFO : (91340 | LKPDP_5:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21297 : Lookup cache row count : 1230710
+
+2025-02-11 12:41:09 : INFO : (91340 | LKPDP_5:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Feb 11 02:11:09 2025)
+2025-02-11 12:41:09 : INFO : (91340 | LKPDP_5:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1671 : Created new cache files PMLKUP42531_1376257_0_26702962L64.[dat/idx] in directory /APPS/Informatica/infa_shared_obia/Cache for Lookup [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE].
+2025-02-11 12:41:09 : INFO : (91340 | LKPDP_5:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21641 : MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE: Index cache size = [40009728], Data cache size = [20004864]
+2025-02-11 12:41:09 : INFO : (91340 | LKPDP_5:TRANSF_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21216 : Finished transformations for Source Qualifier [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE{{DSQ}}]. Total errors [0] 
+2025-02-11 12:41:09 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24031 : 
+***** RUN INFO FOR DYNAMIC PIPELINE [LKPDP_5] *****
+Thread [LKPDP_5:READER_1_1] created for [the read stage] of partition point [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE{{DSQ}}] has completed.
+	Total Run Time = [8.076049] secs
+	Total Idle Time = [0.021173] secs
+	Busy Percentage = [99.737824]
+Thread [LKPDP_5:TRANSF_1_1] created for [the transformation stage] of partition point [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE{{DSQ}}] has completed.
+	Total Run Time = [6.300512] secs
+	Total Idle Time = [5.549414] secs
+	Busy Percentage = [11.921213]
+	Transformation-specific statistics for this thread were not accurate enough to report.
+
+2025-02-11 12:41:09 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8167 : Start loading table [WC_FIN_CLAIMS_SNAPSHOT_F] at: Tue Feb 11 02:11:09 2025
+2025-02-11 12:41:10 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8161 : 
+TARGET BASED COMMIT POINT  Tue Feb 11 02:11:09 2025
+===================================================
+
+WRT_8036 Target: WC_FIN_CLAIMS_SNAPSHOT_F (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F])
+WRT_8038 Inserted rows - Requested: 10080      Applied: 10080      Rejected: 0          Affected: 10080     
+
+2025-02-11 12:41:10 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8161 : 
+TARGET BASED COMMIT POINT  Tue Feb 11 02:11:09 2025
+===================================================
+
+WRT_8036 Target: WC_FIN_CLAIMS_SNAPSHOT_F (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F])
+WRT_8038 Inserted rows - Requested: 20160      Applied: 20160      Rejected: 0          Affected: 20160     
+
+2025-02-11 12:41:10 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16019 : Read [49431] rows, read [0] error rows for source table [WC_FIN_CLAIMS_F] instance name [WC_FIN_CLAIMS_F]
+2025-02-11 12:41:10 : INFO : (91340 | READER_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16008 : Reader run completed.
+2025-02-11 12:41:10 : INFO : (91340 | TRANSF_2_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21216 : Finished transformations for Source Qualifier [SQ_WC_FIN_CLAIMS_F]. Total errors [0] 
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8161 : 
+TARGET BASED COMMIT POINT  Tue Feb 11 02:11:10 2025
+===================================================
+
+WRT_8036 Target: WC_FIN_CLAIMS_SNAPSHOT_F (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F])
+WRT_8038 Inserted rows - Requested: 30240      Applied: 30240      Rejected: 0          Affected: 30240     
+
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8161 : 
+TARGET BASED COMMIT POINT  Tue Feb 11 02:11:10 2025
+===================================================
+
+WRT_8036 Target: WC_FIN_CLAIMS_SNAPSHOT_F (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F])
+WRT_8038 Inserted rows - Requested: 40320      Applied: 40320      Rejected: 0          Affected: 40320     
+
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8168 : End loading table [WC_FIN_CLAIMS_SNAPSHOT_F] at: Tue Feb 11 02:11:10 2025
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8141 : 
+Commit on end-of-data  Tue Feb 11 02:11:10 2025
+===================================================
+
+WRT_8036 Target: WC_FIN_CLAIMS_SNAPSHOT_F (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F])
+WRT_8038 Inserted rows - Requested: 49431      Applied: 49431      Rejected: 0          Affected: 49431     
+
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8035 : Load complete time: Tue Feb 11 02:11:10 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: WC_FIN_CLAIMS_SNAPSHOT_F (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F])
+WRT_8038 Inserted rows - Requested: 49431      Applied: 49431      Rejected: 0          Affected: 49431     
+
+
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8043 : *****END LOAD SESSION*****
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_2_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8006 : Writer run completed.
+2025-02-11 12:41:11 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [2], CONCURRENT SET [1] *****
+Thread [READER_2_1_1] created for [the read stage] of partition point [SQ_WC_FIN_CLAIMS_F] has completed.
+	Total Run Time = [37.172195] secs
+	Total Idle Time = [8.244166] secs
+	Busy Percentage = [77.821686]
+Thread [TRANSF_2_1_1] created for [the transformation stage] of partition point [SQ_WC_FIN_CLAIMS_F] has completed.
+	Total Run Time = [9.381301] secs
+	Total Idle Time = [8.904926] secs
+	Busy Percentage = [5.077916]
+	Transformation-specific statistics for this thread were not accurate enough to report.
+Thread [WRITER_2_*_1] created for [the write stage] of partition point [WC_FIN_CLAIMS_SNAPSHOT_F] has completed.
+	Total Run Time = [1.775431] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+
+2025-02-11 12:41:11 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1793 : The index cache size that would hold [544574] rows in the lookup table for [LKP_WC_FIN_NOTES_D], in memory, is [15537200] bytes
+2025-02-11 12:41:11 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1792 : The data cache size that would hold [544574] rows in the lookup table for [LKP_WC_FIN_NOTES_D], in memory, is [13090816] bytes
+2025-02-11 12:41:11 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1793 : The index cache size that would hold [8705] rows in the lookup table for [LKP_WC_FIN_CLAIMS_F], in memory, is [1959424] bytes
+2025-02-11 12:41:11 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1792 : The data cache size that would hold [8705] rows in the lookup table for [LKP_WC_FIN_CLAIMS_F], in memory, is [221184] bytes
+2025-02-11 12:41:11 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1793 : The index cache size that would hold [7] rows in the lookup table for [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES], in memory, is [20480] bytes
+2025-02-11 12:41:11 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1792 : The data cache size that would hold [7] rows in the lookup table for [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES], in memory, is [16384] bytes
+2025-02-11 12:41:11 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2025-02-11 12:41:11 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [READER_3_1_1] has the ID [26].
+2025-02-11 12:41:11 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21438 : Reader: Source is [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:41:11 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16051 : Source database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:41:11 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16003 : Initialization completed successfully.
+2025-02-11 12:41:11 : INFO : (91340 | TRANSF_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [TRANSF_3_1_1] has the ID [27].
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [WRITER_3_*_1] has the ID [28].
+2025-02-11 12:41:11 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8147 : Writer: Target is Database [obawprd], Type [Oracle], User [OBAW], Bulk Mode [OFF]
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8221 : Target database connection [DataWarehouse] code page: [UTF-8 encoding of Unicode]
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8124 : Target Table WC_FIN_CLAIMS_SNAPSHOT_F :SQL INSERT statement:
+INSERT INTO WC_FIN_CLAIMS_SNAPSHOT_F(SNAPSHOT_DT_WID)  VALUES ( ?) 
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8020 : No column marked as primary key for table [WC_FIN_CLAIMS_SNAPSHOT_F]. UPDATEs Not Supported.
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8270 : Target connection group #1 consists of target(s) [WC_FIN_CLAIMS_SNAPSHOT_F]
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8003 : Writer initialization complete.
+2025-02-11 12:41:12 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16007 : Reader run started.
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8005 : Writer run started.
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Tue Feb 11 02:11:11 2025
+
+Target tables:
+
+     WC_FIN_CLAIMS_SNAPSHOT_F
+
+
+2025-02-11 12:41:12 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4029 : SQ Instance [SQ_WC_FIN_CLAIMS_SNAPSHOT_POST_LOAD] User specified SQL Query [Select row_wid,calendar_date,Decode(row_wid,m_end_cal_dt_wid,'Y','N')  month_end_flg
+ from W_DAY_D wd
+ where (('D' = 'D' /* 'D' or 'M' or 'R' */
+       and wd.calendar_date BETWEEN trunc(to_date('02/10/2025 00:00:00','MM/DD/YYYY HH24:MI:SS'))  AND (trunc(sysdate) - 1)
+               and wd.calendar_date >= trunc(sysdate, 'MM') ) or
+       ('M' = 'D' /* 'D' or 'M' or 'R' */
+       and wd.calendar_date = trunc(sysdate, 'MM') - 1) or
+       ('R' = 'D' /* 'D' or 'M' or 'R' */
+       and wd.calendar_date between
+       TO_DATE('', 'MM/DD/YYYY HH24:MI:SS') /* Reconcile start date */
+       and TO_DATE('', 'MM/DD/YYYY HH24:MI:SS') /* Reconcile end date */
+       and (wd.calendar_date >= trunc(sysdate, 'MM') or
+       wd.calendar_date = last_day(wd.calendar_date))))]
+2025-02-11 12:41:12 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4049 : RR_4049 SQL Query issued to database : (Tue Feb 11 02:11:12 2025)
+2025-02-11 12:41:12 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : RR_4050 : RR_4050 First row returned from database to reader : (Tue Feb 11 02:11:12 2025)
+2025-02-11 12:41:12 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16019 : Read [1] rows, read [0] error rows for source table [W_DAY_D] instance name [W_DAY_D_POST_LOAD]
+2025-02-11 12:41:12 : INFO : (91340 | READER_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : BLKR_16008 : Reader run completed.
+2025-02-11 12:41:12 : INFO : (91340 | TRANSF_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21075 : Connecting to database [obawprd], Type [Oracle], User [OBAW]
+2025-02-11 12:41:12 : INFO : (91340 | TRANSF_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1717 : Stored procedure [SP_WC_RebuildIndexPartition] uses database connection [DataWarehouse] in code page [UTF-8 encoding of Unicode]
+2025-02-11 12:41:12 : INFO : (91340 | TRANSF_3_1_1) : (IS | is_utf8_obia_ABC) : node02_prod : DBG_21216 : Finished transformations for Source Qualifier [SQ_WC_FIN_CLAIMS_SNAPSHOT_POST_LOAD]. Total errors [0] 
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8167 : Start loading table [WC_FIN_CLAIMS_SNAPSHOT_F] at: Tue Feb 11 02:11:11 2025
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8168 : End loading table [WC_FIN_CLAIMS_SNAPSHOT_F] at: Tue Feb 11 02:11:11 2025
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8035 : Load complete time: Tue Feb 11 02:11:11 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: WC_FIN_CLAIMS_SNAPSHOT_F (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F_POST_LOAD])
+WRT_8044 No data loaded for this target
+
+
+
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8043 : *****END LOAD SESSION*****
+2025-02-11 12:41:12 : INFO : (91340 | WRITER_3_*_1) : (IS | is_utf8_obia_ABC) : node02_prod : WRT_8006 : Writer run completed.
+2025-02-11 12:41:12 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [3], CONCURRENT SET [1] *****
+Thread [READER_3_1_1] created for [the read stage] of partition point [SQ_WC_FIN_CLAIMS_SNAPSHOT_POST_LOAD] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_3_1_1] created for [the transformation stage] of partition point [SQ_WC_FIN_CLAIMS_SNAPSHOT_POST_LOAD] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_3_*_1] created for [the write stage] of partition point [WC_FIN_CLAIMS_SNAPSHOT_F_POST_LOAD] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-02-11 12:41:12 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24005 : PETL_24005 Starting post-session tasks. : (Tue Feb 11 02:11:12 2025)
+2025-02-11 12:41:12 : INFO : (91340 | POST-SESS) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24091 : Thread [POST-SESS] has the ID [29].
+2025-02-11 12:41:12 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Tue Feb 11 02:11:12 2025)
+2025-02-11 12:41:12 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7216 : Deleting cache files [PMLKUP42531_14_0_26702962L64] for transformation [WC_lkp_WC_FIN_CLAIMS_SNAPSHOT].
+2025-02-11 12:41:12 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7216 : Deleting cache files [PMLKUP42531_24_0_26702962L64] for transformation [LKP_WC_FIN_NOTES_D].
+2025-02-11 12:41:12 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7216 : Deleting cache files [PMLKUP42531_23_0_26702962L64] for transformation [LKP_WC_FIN_CLAIMS_F].
+2025-02-11 12:41:12 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7216 : Deleting cache files [PMLKUP42531_1376261_0_26702962L64] for transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.GET_GLOBAL_CURR_CODES_AND_RATE_TYPES].
+2025-02-11 12:41:13 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TE_7216 : Deleting cache files [PMLKUP42531_1376257_0_26702962L64] for transformation [MPLT_WC_FIN_CURCY_CONVERSION_RATES_SNPSHT.LKP_W_EXCH_RATE].
+2025-02-11 12:41:13 : INFO : (91340 | MAPPING) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6018 : The session completed with [0] row transformation errors. 
+2025-02-11 12:41:13 : INFO : (91340 | MANAGER) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24002 : Parallel Pipeline Engine finished.
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : PETL_24012 : Session run completed successfully.
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : VAR_27048 : Persisting mapping variable values to the repository.
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : VAR_27049 : Mapping variable name: [$$SNAPSHOT_START_DT], persisted value: [02/11/2025 00:00:00.000000000], run instance name [].
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6252 : Source Load Summary.
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1740 : Table: [SQ_WC_TRUNCATE_PARTITION_PRE_LOAD] (Instance Name: [SQ_WC_TRUNCATE_PARTITION_PRE_LOAD])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1740 : Table: [SQ_WC_FIN_CLAIMS_F] (Instance Name: [SQ_WC_FIN_CLAIMS_F])
+	 Output Rows [49431], Affected Rows [49431], Applied Rows [49431], Rejected Rows [0]
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1740 : Table: [SQ_WC_FIN_CLAIMS_SNAPSHOT_POST_LOAD] (Instance Name: [SQ_WC_FIN_CLAIMS_SNAPSHOT_POST_LOAD])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6253 : Target Load Summary.
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1740 : Table: [WC_FIN_CLAIMS_SNAPSHOT_F] (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F_PRE_LOAD])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1740 : Table: [WC_FIN_CLAIMS_SNAPSHOT_F] (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F])
+	 Output Rows [49431], Affected Rows [49431], Applied Rows [49431], Rejected Rows [0]
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : CMN_1740 : Table: [WC_FIN_CLAIMS_SNAPSHOT_F] (Instance Name: [WC_FIN_CLAIMS_SNAPSHOT_F_POST_LOAD])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6023 : 
+===================================================
+
+2025-02-11 12:41:13 : INFO : (91340 | DIRECTOR) : (IS | is_utf8_obia_ABC) : node02_prod : TM_6020 : Session [PLP_WC_FIN_Claims_Snapshot_A] completed at [Tue Feb 11 02:11:13 2025].
